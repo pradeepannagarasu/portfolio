@@ -97,7 +97,7 @@ const Contact = () => {
 
           {submitted && (
             <div className="bg-green-50 border border-green-200 rounded-md p-4 text-green-800">
-              Message sent! I'll get back to you soon.
+              Message sent! I&apos;ll get back to you soon.
             </div>
           )}
         </form>

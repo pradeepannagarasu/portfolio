@@ -169,8 +169,8 @@ export default function ModelDecision() {
       <h2>Conclusion</h2>
       <p>
         Start with pretrained models and prompt engineering. Only move to
-        fine-tuning when you have clear evidence it's needed: either prompt
-        engineering isn't achieving required quality, or costs/latency at scale
+        fine-tuning when you have clear evidence it&apos;s needed: either prompt
+        engineering isn&apos;t achieving required quality, or costs/latency at scale
         justify the investment. Most production systems use a combination,
         routing different tasks to different models based on complexity and
         requirements.

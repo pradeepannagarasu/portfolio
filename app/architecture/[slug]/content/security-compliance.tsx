@@ -47,7 +47,7 @@ export default function Security() {
           data
         </li>
         <li>
-          <strong>Logging:</strong> Don't log PII in plain text
+          <strong>Logging:</strong> Don&apos;t log PII in plain text
         </li>
         <li>
           <strong>Deletion:</strong> Implement right-to-deletion workflows
@@ -78,7 +78,7 @@ export default function Security() {
       <ul>
         <li>
           <strong>Direct injection:</strong> User input contains instructions for
-          LLM ("Ignore previous instructions...")
+          LLM (&quot;Ignore previous instructions...&quot;)
         </li>
         <li>
           <strong>Indirect injection:</strong> Malicious content in retrieved

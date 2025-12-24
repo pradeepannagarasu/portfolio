@@ -25,7 +25,7 @@ const About = () => {
           that are both secure and compliant with regulatory requirements.
         </p>
         <p>
-          Production code I've built remains private under organization accounts, 
+          Production code I&apos;ve built remains private under organization accounts, 
           as is standard for proprietary platforms. I share technical insights through 
           architecture documentation, system design case studies, and technical decision 
           records that focus on patterns and principles rather than implementation details.

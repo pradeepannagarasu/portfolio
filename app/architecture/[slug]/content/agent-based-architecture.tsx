@@ -30,7 +30,7 @@ export default function AgentArchitecture() {
         instructions, maintains state, and decides actions. The agent receives:
       </p>
       <ul>
-        <li>System prompt (defines agent's role and capabilities)</li>
+        <li>System prompt (defines agent&apos;s role and capabilities)</li>
         <li>Current state (conversation history, context)</li>
         <li>Available tools (functions the agent can call)</li>
         <li>User instructions or goals</li>
@@ -136,7 +136,7 @@ export default function AgentArchitecture() {
       <h3>Prompt Engineering</h3>
       <p>Agent prompts must clearly define:</p>
       <ul>
-        <li>Agent's role and objectives</li>
+        <li>Agent&apos;s role and objectives</li>
         <li>Available tools and when to use them</li>
         <li>Output format (structured responses for tool calls)</li>
         <li>Error recovery procedures</li>
@@ -151,7 +151,7 @@ export default function AgentArchitecture() {
       <ul>
         <li>Maximum iteration limits</li>
         <li>Cost/time budgets</li>
-        <li>Explicit "done" signals</li>
+        <li>Explicit &quot;done&quot; signals</li>
         <li>Human-in-the-loop checkpoints</li>
       </ul>
 

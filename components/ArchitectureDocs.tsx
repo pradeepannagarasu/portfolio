@@ -3,7 +3,7 @@ const ArchitectureDocs = () => {
     <section id="architecture-docs" className="section-container bg-gray-50">
       <h2 className="heading-2">Architecture Documentation</h2>
       <p className="body-text mb-8 max-w-3xl">
-        Production systems and proprietary platforms I've built are private under organization accounts. 
+        Production systems and proprietary platforms I&apos;ve built are private under organization accounts. 
         I maintain a public repository of architecture notes, system design documentation, and technical 
         decision records.
       </p>
