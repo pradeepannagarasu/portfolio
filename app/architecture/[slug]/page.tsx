@@ -20,6 +20,13 @@ const components: Record<string, React.ComponentType> = {
   "security-compliance": Security,
 };
 
+// Required for static export - generates all possible paths at build time
+export async function generateStaticParams() {
+  return Object.keys(components).map((slug) => ({
+    slug,
+  }));
+}
+
 export default async function ArchitecturePage({ params }: PageProps) {
   const { slug } = await params;
   const Component = components[slug];
