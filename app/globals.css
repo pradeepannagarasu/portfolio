@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-white text-gray-900 antialiased;
+  }
+}
+
+@layer components {
+  .prose-custom {
+    @apply prose prose-lg max-w-none;
+  }
+  
+  .section-container {
+    @apply max-w-4xl mx-auto px-6 py-16;
+  }
+  
+  .heading-1 {
+    @apply text-4xl md:text-5xl font-bold tracking-tight text-gray-900;
+  }
+  
+  .heading-2 {
+    @apply text-3xl md:text-4xl font-semibold tracking-tight text-gray-900 mb-8;
+  }
+  
+  .heading-3 {
+    @apply text-2xl font-semibold text-gray-900 mb-4;
+  }
+  
+  .body-text {
+    @apply text-lg leading-relaxed text-gray-700;
+  }
+  
+  .link {
+    @apply text-blue-600 hover:text-blue-700 underline underline-offset-2 transition-colors;
+  }
+}
+
