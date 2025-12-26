@@ -1,27 +1,11 @@
-const ResumeLinks = () => {
+const Links = () => {
   return (
-    <section id="resume" className="section-container">
-      <h2 className="heading-2">Resume & Links</h2>
-      <div className="space-y-6">
+    <section id="links" className="section-container">
+      <h2 className="heading-2">Links</h2>
+      <div className="space-y-8">
         <div>
           <h3 className="text-xl font-semibold text-gray-900 mb-4">
-            Download Resume
-          </h3>
-          <p className="body-text mb-4">
-            PDF resume available for download.
-          </p>
-          <a
-            href="/resume.pdf"
-            download
-            className="inline-block px-6 py-3 bg-gray-900 text-white rounded-md hover:bg-gray-800 transition-colors font-medium"
-          >
-            Download Resume (PDF)
-          </a>
-        </div>
-
-        <div className="pt-6 border-t border-gray-200">
-          <h3 className="text-xl font-semibold text-gray-900 mb-4">
-            Professional Links
+            Professional
           </h3>
           <ul className="space-y-3">
             <li>
@@ -41,7 +25,38 @@ const ResumeLinks = () => {
                 rel="noopener noreferrer"
                 className="link text-lg"
               >
-                Architecture Documentation (GitHub) →
+                GitHub (Architecture Documentation) →
+              </a>
+              <p className="text-sm text-gray-600 mt-1">
+                Note: Production code is private under organization accounts.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <div className="pt-6 border-t border-gray-200">
+          <h3 className="text-xl font-semibold text-gray-900 mb-4">
+            Content & Distribution Systems
+          </h3>
+          <ul className="space-y-3">
+            <li>
+              <a
+                href="https://www.youtube.com/@pradeepspath"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link text-lg"
+              >
+                YouTube →
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/iampradeepan_/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link text-lg"
+              >
+                Instagram →
               </a>
             </li>
           </ul>
@@ -51,5 +66,5 @@ const ResumeLinks = () => {
   );
 };
 
-export default ResumeLinks;
+export default Links;
 

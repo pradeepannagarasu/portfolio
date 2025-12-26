@@ -15,7 +15,7 @@ const Hero = () => {
             transition={{ duration: 0.6 }}
             className="heading-1 mb-6"
           >
-            AI & LLM Systems Engineer
+            AI / ML / Platform Engineer
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}

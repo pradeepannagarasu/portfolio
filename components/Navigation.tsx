@@ -17,7 +17,8 @@ const Navigation = () => {
 
   const navItems = [
     { href: "/#about", label: "About" },
-    { href: "/#systems", label: "AI Systems" },
+    { href: "/#systems", label: "AI/ML Engineering" },
+    { href: "/#fullstack", label: "Full-Stack" },
     { href: "/#projects", label: "Case Studies" },
     { href: "/architecture", label: "Architecture" },
     { href: "/#contact", label: "Contact" },

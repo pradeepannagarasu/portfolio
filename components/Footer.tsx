@@ -6,15 +6,7 @@ const Footer = () => {
           <p className="text-gray-600 text-sm">
             © {new Date().getFullYear()} Pradeepan Nagarasu. All rights reserved.
           </p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
-            <a
-              href="https://github.com/pradeepannagarasu/system-architecture-notes"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-600 hover:text-gray-900 text-sm transition-colors"
-            >
-              Architecture Docs
-            </a>
+          <div className="flex flex-wrap gap-4 mt-4 md:mt-0">
             <a
               href="https://www.linkedin.com/in/pradeepannagarasu"
               target="_blank"
@@ -22,6 +14,30 @@ const Footer = () => {
               className="text-gray-600 hover:text-gray-900 text-sm transition-colors"
             >
               LinkedIn
+            </a>
+            <a
+              href="https://github.com/pradeepannagarasu/system-architecture-notes"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-gray-900 text-sm transition-colors"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://www.youtube.com/@pradeepspath"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-gray-900 text-sm transition-colors"
+            >
+              YouTube
+            </a>
+            <a
+              href="https://www.instagram.com/iampradeepan_/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-gray-900 text-sm transition-colors"
+            >
+              Instagram
             </a>
           </div>
         </div>
