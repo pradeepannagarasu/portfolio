@@ -1,10 +1,10 @@
 const Links = () => {
   return (
-    <section id="links" className="section-container">
+    <section id="links" className="section-container" style={{ backgroundColor: 'var(--bg-secondary)' }}>
       <h2 className="heading-2">Links</h2>
       <div className="space-y-8">
         <div>
-          <h3 className="text-xl font-semibold text-gray-900 mb-4">
+          <h3 className="text-xl font-semibold mb-4" style={{ color: 'var(--text-primary)', fontWeight: 600 }}>
             Professional
           </h3>
           <ul className="space-y-3">
@@ -27,15 +27,15 @@ const Links = () => {
               >
                 GitHub (Architecture Documentation) →
               </a>
-              <p className="text-sm text-gray-600 mt-1">
+              <p className="text-sm mt-1" style={{ color: 'var(--text-secondary)' }}>
                 Note: Production code is private under organization accounts.
               </p>
             </li>
           </ul>
         </div>
 
-        <div className="pt-6 border-t border-gray-200">
-          <h3 className="text-xl font-semibold text-gray-900 mb-4">
+        <div className="pt-6" style={{ borderTop: '1px solid var(--border-subtle)' }}>
+          <h3 className="text-xl font-semibold mb-4" style={{ color: 'var(--text-primary)', fontWeight: 600 }}>
             Content & Distribution Systems
           </h3>
           <ul className="space-y-3">

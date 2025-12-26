@@ -1,6 +1,6 @@
 const DigitalGrowth = () => {
   return (
-    <section id="growth" className="section-container bg-gray-50">
+    <section id="growth" className="section-container" style={{ backgroundColor: 'var(--bg-tertiary)' }}>
       <h2 className="heading-2">Audience & Digital Growth Systems</h2>
       <p className="body-text mb-12 max-w-3xl">
         Designed and executed content distribution systems reaching 90K+ users across 
@@ -10,7 +10,7 @@ const DigitalGrowth = () => {
       </p>
 
       <div className="space-y-8">
-        <div className="bg-white border border-gray-200 rounded-lg p-8">
+        <div className="card">
           <h3 className="heading-3">Content System Architecture</h3>
           <div className="space-y-4 body-text">
             <p>
@@ -26,7 +26,7 @@ const DigitalGrowth = () => {
           </div>
         </div>
 
-        <div className="bg-white border border-gray-200 rounded-lg p-8">
+        <div className="card">
           <h3 className="heading-3">Platform Optimization</h3>
           <div className="space-y-4 body-text">
             <p>
@@ -44,7 +44,7 @@ const DigitalGrowth = () => {
           </div>
         </div>
 
-        <div className="bg-white border border-gray-200 rounded-lg p-8">
+        <div className="card">
           <h3 className="heading-3">Analytics & Iteration</h3>
           <div className="space-y-4 body-text">
             <p>
@@ -62,7 +62,7 @@ const DigitalGrowth = () => {
           </div>
         </div>
 
-        <div className="bg-white border border-gray-200 rounded-lg p-8">
+        <div className="card">
           <h3 className="heading-3">Scale & Automation</h3>
           <div className="space-y-4 body-text">
             <p>
@@ -80,9 +80,9 @@ const DigitalGrowth = () => {
           </div>
         </div>
 
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
-          <p className="text-blue-900 text-sm">
-            <strong>Note:</strong> This work is framed as systems engineering and growth 
+        <div className="card" style={{ backgroundColor: 'var(--bg-secondary)', borderColor: 'var(--accent-muted)' }}>
+          <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
+            <strong style={{ color: 'var(--text-primary)' }}>Note:</strong> This work is framed as systems engineering and growth 
             platform development, not influencer marketing. The focus is on building 
             scalable content distribution systems, analytics infrastructure, and 
             data-driven iteration processes.

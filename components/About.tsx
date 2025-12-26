@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section id="about" className="section-container">
+    <section id="about" className="section-container" style={{ backgroundColor: 'var(--bg-primary)' }}>
       <h2 className="heading-2">About</h2>
       <div className="space-y-6 body-text">
         <p>

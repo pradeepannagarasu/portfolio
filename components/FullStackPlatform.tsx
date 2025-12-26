@@ -1,6 +1,6 @@
 const FullStackPlatform = () => {
   return (
-    <section id="fullstack" className="section-container">
+    <section id="fullstack" className="section-container" style={{ backgroundColor: 'var(--bg-primary)' }}>
       <h2 className="heading-2">Full-Stack & Platform Engineering</h2>
       <p className="body-text mb-12 max-w-3xl">
         These capabilities support and enable the AI systems I build. Full-stack 
@@ -9,7 +9,7 @@ const FullStackPlatform = () => {
       </p>
 
       <div className="space-y-8">
-        <div className="bg-white border border-gray-200 rounded-lg p-8">
+        <div className="card">
           <h3 className="heading-3">Web Design & Development</h3>
           <div className="space-y-4 body-text">
             <p>
@@ -28,7 +28,7 @@ const FullStackPlatform = () => {
           </div>
         </div>
 
-        <div className="bg-white border border-gray-200 rounded-lg p-8">
+        <div className="card">
           <h3 className="heading-3">Backend & API Development</h3>
           <div className="space-y-4 body-text">
             <p>
@@ -46,7 +46,7 @@ const FullStackPlatform = () => {
           </div>
         </div>
 
-        <div className="bg-white border border-gray-200 rounded-lg p-8">
+        <div className="card">
           <h3 className="heading-3">Database Design & Configuration</h3>
           <div className="space-y-4 body-text">
             <p>
@@ -63,7 +63,7 @@ const FullStackPlatform = () => {
           </div>
         </div>
 
-        <div className="bg-white border border-gray-200 rounded-lg p-8">
+        <div className="card">
           <h3 className="heading-3">Deployment & Infrastructure</h3>
           <div className="space-y-4 body-text">
             <p>
@@ -81,7 +81,7 @@ const FullStackPlatform = () => {
           </div>
         </div>
 
-        <div className="bg-white border border-gray-200 rounded-lg p-8">
+        <div className="card">
           <h3 className="heading-3">Technical SEO & Analytics</h3>
           <div className="space-y-4 body-text">
             <p>

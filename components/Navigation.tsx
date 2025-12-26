@@ -28,13 +28,16 @@ const Navigation = () => {
     <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all ${
-        scrolled ? "bg-white/95 backdrop-blur-sm shadow-sm" : "bg-transparent"
-      }`}
+      transition={{ duration: 0.15 }}
+      className="fixed top-0 left-0 right-0 z-50 transition-all duration-150"
+      style={{
+        backgroundColor: scrolled ? 'var(--bg-primary)' : 'transparent',
+        borderBottom: scrolled ? '1px solid var(--border-subtle)' : 'none'
+      }}
     >
       <div className="max-w-6xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <Link href="/" className="text-xl font-semibold text-gray-900">
+          <Link href="/" className="text-xl font-semibold" style={{ color: 'var(--text-primary)', fontWeight: 600 }}>
             Pradeepan Nagarasu
           </Link>
           <div className="hidden md:flex space-x-8">
@@ -42,7 +45,17 @@ const Navigation = () => {
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-gray-700 hover:text-gray-900 transition-colors text-sm font-medium"
+                className="text-sm font-medium transition-all duration-150"
+                style={{ 
+                  color: 'var(--text-secondary)',
+                  fontWeight: 500
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.color = 'var(--text-primary)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.color = 'var(--text-secondary)';
+                }}
               >
                 {item.label}
               </Link>

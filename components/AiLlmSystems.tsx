@@ -23,37 +23,37 @@ const SystemCard = ({
   diagram,
 }: SystemCardProps) => {
   return (
-    <div className="bg-white border border-gray-200 rounded-lg p-8 mb-8">
+    <div className="card mb-8">
       <h3 className="heading-3 mb-6">{title}</h3>
       
       <div className="space-y-6">
         <div>
-          <h4 className="text-lg font-semibold text-gray-900 mb-2">Problem Statement</h4>
+          <h4 className="text-lg font-semibold mb-2" style={{ color: 'var(--text-primary)', fontWeight: 600 }}>Problem Statement</h4>
           <p className="body-text">{problem}</p>
         </div>
         
         <div>
-          <h4 className="text-lg font-semibold text-gray-900 mb-2">Why LLMs</h4>
+          <h4 className="text-lg font-semibold mb-2" style={{ color: 'var(--text-primary)', fontWeight: 600 }}>Why LLMs</h4>
           <p className="body-text">{whyLLMs}</p>
         </div>
         
         <div>
-          <h4 className="text-lg font-semibold text-gray-900 mb-2">Architecture Overview</h4>
+          <h4 className="text-lg font-semibold mb-2" style={{ color: 'var(--text-primary)', fontWeight: 600 }}>Architecture Overview</h4>
           <p className="body-text">{architecture}</p>
         </div>
         
         <div>
-          <h4 className="text-lg font-semibold text-gray-900 mb-2">Data Flow</h4>
+          <h4 className="text-lg font-semibold mb-2" style={{ color: 'var(--text-primary)', fontWeight: 600 }}>Data Flow</h4>
           <p className="body-text">{dataFlow}</p>
         </div>
         
         <div>
-          <h4 className="text-lg font-semibold text-gray-900 mb-2">Model Choices</h4>
+          <h4 className="text-lg font-semibold mb-2" style={{ color: 'var(--text-primary)', fontWeight: 600 }}>Model Choices</h4>
           <p className="body-text">{models}</p>
         </div>
         
         <div>
-          <h4 className="text-lg font-semibold text-gray-900 mb-2">Deployment Considerations</h4>
+          <h4 className="text-lg font-semibold mb-2" style={{ color: 'var(--text-primary)', fontWeight: 600 }}>Deployment Considerations</h4>
           <p className="body-text">{deployment}</p>
         </div>
         
@@ -65,7 +65,7 @@ const SystemCard = ({
 
 const AiLlmSystems = () => {
   return (
-    <section id="systems" className="section-container bg-gray-50">
+    <section id="systems" className="section-container" style={{ backgroundColor: 'var(--bg-secondary)' }}>
       <h2 className="heading-2">AI & LLM Systems</h2>
       <p className="body-text mb-12 max-w-3xl">
         Production systems built with LLMs, focusing on architecture decisions,

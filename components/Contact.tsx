@@ -22,7 +22,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="section-container bg-gray-50">
+    <section id="contact" className="section-container" style={{ backgroundColor: 'var(--bg-primary)' }}>
       <h2 className="heading-2">Contact</h2>
       <p className="body-text mb-8 max-w-2xl">
         Interested in discussing AI systems, LLM engineering, or potential
@@ -34,7 +34,8 @@ const Contact = () => {
           <div>
             <label
               htmlFor="name"
-              className="block text-sm font-medium text-gray-900 mb-2"
+              className="block text-sm font-medium mb-2"
+              style={{ color: 'var(--text-primary)', fontWeight: 500 }}
             >
               Name
             </label>
@@ -46,14 +47,15 @@ const Contact = () => {
                 setFormData({ ...formData, name: e.target.value })
               }
               required
-              className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-gray-900 focus:border-transparent"
+              className="input-field"
             />
           </div>
 
           <div>
             <label
               htmlFor="email"
-              className="block text-sm font-medium text-gray-900 mb-2"
+              className="block text-sm font-medium mb-2"
+              style={{ color: 'var(--text-primary)', fontWeight: 500 }}
             >
               Email
             </label>
@@ -65,14 +67,15 @@ const Contact = () => {
                 setFormData({ ...formData, email: e.target.value })
               }
               required
-              className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-gray-900 focus:border-transparent"
+              className="input-field"
             />
           </div>
 
           <div>
             <label
               htmlFor="message"
-              className="block text-sm font-medium text-gray-900 mb-2"
+              className="block text-sm font-medium mb-2"
+              style={{ color: 'var(--text-primary)', fontWeight: 500 }}
             >
               Message
             </label>
@@ -84,26 +87,28 @@ const Contact = () => {
                 setFormData({ ...formData, message: e.target.value })
               }
               required
-              className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-gray-900 focus:border-transparent"
+              className="input-field"
             />
           </div>
 
           <button
             type="submit"
-            className="px-6 py-3 bg-gray-900 text-white rounded-md hover:bg-gray-800 transition-colors font-medium"
+            className="btn-primary"
           >
             Send Message
           </button>
 
           {submitted && (
-            <div className="bg-green-50 border border-green-200 rounded-md p-4 text-green-800">
-              Message sent! I&apos;ll get back to you soon.
+            <div className="card" style={{ backgroundColor: 'var(--bg-secondary)', borderColor: 'var(--accent-muted)' }}>
+              <p style={{ color: 'var(--text-primary)' }}>
+                Message sent! I&apos;ll get back to you soon.
+              </p>
             </div>
           )}
         </form>
 
-        <div className="mt-8 pt-8 border-t border-gray-200">
-          <p className="text-gray-600">
+        <div className="mt-8 pt-8" style={{ borderTop: '1px solid var(--border-subtle)' }}>
+          <p style={{ color: 'var(--text-secondary)' }}>
             Or reach out directly at:{" "}
             <a href="mailto:pradeepannagarasu@gmail.com" className="link">
               pradeepannagarasu@gmail.com

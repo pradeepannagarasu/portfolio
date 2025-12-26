@@ -28,11 +28,11 @@ const ProjectCard = ({
   diagram,
 }: ProjectProps) => {
   return (
-    <div className="bg-white border border-gray-200 rounded-lg p-8 mb-8">
+    <div className="card mb-8">
       <div className="flex items-start justify-between mb-6">
         <div>
           <h3 className="heading-3">{name}</h3>
-          <p className="text-gray-600 mt-2">{description}</p>
+          <p className="mt-2" style={{ color: 'var(--text-secondary)' }}>{description}</p>
         </div>
         {link && link !== "#" && (
           <a
@@ -48,35 +48,36 @@ const ProjectCard = ({
 
       <div className="space-y-6">
         <div>
-          <h4 className="text-lg font-semibold text-gray-900 mb-2">
+          <h4 className="text-lg font-semibold mb-2" style={{ color: 'var(--text-primary)', fontWeight: 600 }}>
             Problem
           </h4>
           <p className="body-text">{problem}</p>
         </div>
 
         <div>
-          <h4 className="text-lg font-semibold text-gray-900 mb-2">
+          <h4 className="text-lg font-semibold mb-2" style={{ color: 'var(--text-primary)', fontWeight: 600 }}>
             Constraints
           </h4>
           <p className="body-text">{constraints}</p>
         </div>
 
         <div>
-          <h4 className="text-lg font-semibold text-gray-900 mb-2">
+          <h4 className="text-lg font-semibold mb-2" style={{ color: 'var(--text-primary)', fontWeight: 600 }}>
             Architecture
           </h4>
           <p className="body-text">{architecture}</p>
         </div>
 
         <div>
-          <h4 className="text-lg font-semibold text-gray-900 mb-2">
+          <h4 className="text-lg font-semibold mb-2" style={{ color: 'var(--text-primary)', fontWeight: 600 }}>
             Stack
           </h4>
           <div className="flex flex-wrap gap-2">
             {stack.map((tech) => (
               <span
                 key={tech}
-                className="px-3 py-1 bg-gray-100 text-gray-700 rounded-md text-sm font-medium"
+                className="px-3 py-1 rounded-md text-sm font-medium"
+                style={{ backgroundColor: 'var(--bg-secondary)', color: 'var(--text-secondary)' }}
               >
                 {tech}
               </span>
@@ -85,7 +86,7 @@ const ProjectCard = ({
         </div>
 
         <div>
-          <h4 className="text-lg font-semibold text-gray-900 mb-2">
+          <h4 className="text-lg font-semibold mb-2" style={{ color: 'var(--text-primary)', fontWeight: 600 }}>
             Deployment
           </h4>
           <p className="body-text">{deployment}</p>
@@ -93,7 +94,7 @@ const ProjectCard = ({
 
         {seoGrowth && (
           <div>
-            <h4 className="text-lg font-semibold text-gray-900 mb-2">
+            <h4 className="text-lg font-semibold mb-2" style={{ color: 'var(--text-primary)', fontWeight: 600 }}>
               SEO / Growth
             </h4>
             <p className="body-text">{seoGrowth}</p>
@@ -101,14 +102,14 @@ const ProjectCard = ({
         )}
 
         <div>
-          <h4 className="text-lg font-semibold text-gray-900 mb-2">
+          <h4 className="text-lg font-semibold mb-2" style={{ color: 'var(--text-primary)', fontWeight: 600 }}>
             Learnings
           </h4>
           <p className="body-text">{learnings}</p>
         </div>
 
         {diagram && (
-          <div className="pt-4 border-t border-gray-200">
+          <div className="pt-4" style={{ borderTop: '1px solid var(--border-subtle)' }}>
             {diagram}
           </div>
         )}
@@ -119,7 +120,7 @@ const ProjectCard = ({
 
 const Projects = () => {
   return (
-    <section id="projects" className="section-container">
+    <section id="projects" className="section-container" style={{ backgroundColor: 'var(--bg-primary)' }}>
       <h2 className="heading-2">Case Studies</h2>
       <p className="body-text mb-12 max-w-3xl">
         Production systems built and deployed, with emphasis on architecture, system design, 
