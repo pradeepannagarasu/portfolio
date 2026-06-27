@@ -1,60 +1,36 @@
 const Footer = () => {
   return (
-    <footer style={{ borderTop: '1px solid var(--border-subtle)', backgroundColor: 'var(--bg-secondary)' }}>
+    <footer style={{ borderTop: "1px solid var(--border-subtle)", backgroundColor: "var(--bg-secondary)" }}>
       <div className="section-container py-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
-          <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
-            © {new Date().getFullYear()} Pradeepan Nagarasu. All rights reserved.
+          <p className="text-sm" style={{ color: "var(--text-secondary)" }}>
+            © {new Date().getFullYear()} Pradeepan Nagarasu. Founder and CEO, VoxyDocs.
           </p>
           <div className="flex flex-wrap gap-4 mt-4 md:mt-0">
             <a
-              href="https://www.linkedin.com/in/pradeepannagarasu"
+              href="https://voxydocs.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm transition-all duration-150"
-              style={{ color: 'var(--text-secondary)' }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.color = 'var(--text-primary)';
-                e.currentTarget.style.opacity = '0.8';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.color = 'var(--text-secondary)';
-                e.currentTarget.style.opacity = '1';
-              }}
+              className="text-sm transition-all duration-150 hover:text-orange-600"
+              style={{ color: "var(--text-secondary)" }}
             >
-              LinkedIn
+              VoxyDocs
             </a>
             <a
-              href="https://github.com/pradeepannagarasu/system-architecture-notes"
+              href="https://www.linkedin.com/in/pradeepan-nagarasu"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm transition-all duration-150"
-              style={{ color: 'var(--text-secondary)' }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.color = 'var(--text-primary)';
-                e.currentTarget.style.opacity = '0.8';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.color = 'var(--text-secondary)';
-                e.currentTarget.style.opacity = '1';
-              }}
+              className="text-sm transition-all duration-150 hover:text-orange-600"
+              style={{ color: "var(--text-secondary)" }}
             >
-              GitHub
+              LinkedIn
             </a>
             <a
               href="https://www.youtube.com/@pradeepspath"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm transition-all duration-150"
-              style={{ color: 'var(--text-secondary)' }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.color = 'var(--text-primary)';
-                e.currentTarget.style.opacity = '0.8';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.color = 'var(--text-secondary)';
-                e.currentTarget.style.opacity = '1';
-              }}
+              className="text-sm transition-all duration-150 hover:text-orange-600"
+              style={{ color: "var(--text-secondary)" }}
             >
               YouTube
             </a>
@@ -62,16 +38,8 @@ const Footer = () => {
               href="https://www.instagram.com/iampradeepan_/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm transition-all duration-150"
-              style={{ color: 'var(--text-secondary)' }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.color = 'var(--text-primary)';
-                e.currentTarget.style.opacity = '0.8';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.color = 'var(--text-secondary)';
-                e.currentTarget.style.opacity = '1';
-              }}
+              className="text-sm transition-all duration-150 hover:text-orange-600"
+              style={{ color: "var(--text-secondary)" }}
             >
               Instagram
             </a>
