@@ -216,6 +216,13 @@
     color: rgba(255, 255, 255, 0.78);
   }
 
+  .dark-panel .eyebrow {
+    background: rgba(255, 255, 255, 0.18) !important;
+    border-color: rgba(255, 255, 255, 0.28) !important;
+    color: #ffffff !important;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.14);
+  }
+
   .dark-panel .card {
     background: rgba(255, 255, 255, 0.08);
     border-color: rgba(255, 255, 255, 0.16);
@@ -234,7 +241,8 @@
 
   .dark-panel .heading-2,
   .dark-panel .heading-3 {
-    color: white;
+    color: #ffffff !important;
+    text-shadow: 0 2px 18px rgba(0, 0, 0, 0.18);
   }
 }
 

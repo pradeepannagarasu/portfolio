@@ -186,7 +186,7 @@ export default function Home() {
                 <div className="mt-10 grid grid-cols-2 gap-4 2xl:grid-cols-4">
                   {metrics.map(([value, label], index) => (
                     <ScaleIn className="stat-card min-w-0" delay={index * 0.06} key={value}>
-                      <p className="whitespace-nowrap text-[clamp(1.35rem,2.3vw,1.75rem)] font-extrabold leading-tight tracking-tight" style={{ color: "var(--orange)" }}>{value}</p>
+                      <p className="whitespace-nowrap text-[clamp(1.15rem,1.8vw,1.5rem)] font-extrabold leading-tight tracking-tight" style={{ color: "var(--orange)" }}>{value}</p>
                       <p className="mt-1 text-sm" style={{ color: "var(--text-secondary)" }}>{label}</p>
                     </ScaleIn>
                   ))}
@@ -349,7 +349,7 @@ export default function Home() {
               Follow on Instagram
             </a>
             <a href="https://www.youtube.com/@iampradeepan" target="_blank" rel="noopener noreferrer" className="btn-secondary text-center">
-              Watch Pradeep&apos;s Path
+              Watch Pradeepan&apos;s Journey
             </a>
           </div>
         </section>
