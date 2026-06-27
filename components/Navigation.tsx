@@ -21,6 +21,7 @@ const Navigation = () => {
     { href: "/#milestones", label: "Milestones" },
     { href: "/#content", label: "Content" },
     { href: "/#recognition", label: "Recognition" },
+    { href: "/#faq", label: "FAQ" },
     { href: "/#contact", label: "Contact" },
   ];
 
