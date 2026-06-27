@@ -26,7 +26,7 @@ const Footer = () => {
               LinkedIn
             </a>
             <a
-              href="https://www.youtube.com/@pradeepspath"
+              href="https://www.youtube.com/@iampradeepan"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm transition-all duration-150 hover:text-orange-600"

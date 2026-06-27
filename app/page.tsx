@@ -108,7 +108,7 @@ const schema = {
       sameAs: [
         "https://www.linkedin.com/in/pradeepan-nagarasu",
         "https://voxydocs.com",
-        "https://www.youtube.com/@pradeepspath",
+        "https://www.youtube.com/@iampradeepan",
         "https://www.instagram.com/iampradeepan_/",
       ],
     },
@@ -179,7 +179,7 @@ export default function Home() {
                   <a href="https://voxydocs.com" target="_blank" rel="noopener noreferrer" className="btn-primary text-center">
                     Visit VoxyDocs
                   </a>
-                  <a href="https://www.youtube.com/@pradeepspath" target="_blank" rel="noopener noreferrer" className="btn-secondary text-center">
+                  <a href="https://www.youtube.com/@iampradeepan" target="_blank" rel="noopener noreferrer" className="btn-secondary text-center">
                     Watch My Journey
                   </a>
                 </div>
@@ -348,7 +348,7 @@ export default function Home() {
             <a href="https://www.instagram.com/iampradeepan_/" target="_blank" rel="noopener noreferrer" className="btn-primary text-center">
               Follow on Instagram
             </a>
-            <a href="https://www.youtube.com/@pradeepspath" target="_blank" rel="noopener noreferrer" className="btn-secondary text-center">
+            <a href="https://www.youtube.com/@iampradeepan" target="_blank" rel="noopener noreferrer" className="btn-secondary text-center">
               Watch Pradeep&apos;s Path
             </a>
           </div>
